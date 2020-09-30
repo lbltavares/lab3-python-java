@@ -23,6 +23,9 @@ query q {
         }
         url
         sshUrl
+        releases {
+          totalCount
+        }
       }
     }
     pageInfo {
@@ -38,7 +41,7 @@ query q {
     {
         "nome": "python",
         "query": """
-        query q {
+       query q {
   search(query: "stars:>10000 language:python", type: REPOSITORY, first: 100, after: %s) {
     nodes {
       ... on Repository {
@@ -59,6 +62,9 @@ query q {
         }
         url
         sshUrl
+        releases {
+          totalCount
+        }
       }
     }
     pageInfo {
