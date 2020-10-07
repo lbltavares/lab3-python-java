@@ -47,3 +47,5 @@ Veja como referência como é feito pela ferramenta "radon" em https://radon.rea
 ```python coleta.py```
 4. Execute o script para gerar a análise dos dados:  
 ```python analise.py```
+5. Execute o script para gerar o relatório final:  
+```python relatorio.py```
