@@ -11,7 +11,7 @@ BASE_URL = "https://api.github.com/graphql"
 GH_TOKEN = os.environ["GH_TOKEN"]
 
 # Caminho dos arquivos .CSV:
-CAMINHO_CSV = "csv/"
+CAMINHO_CSV = "coleta/"
 
 # Numero de repositorios a serem coletados para responder cada questao:
 NUMERO_REPOSITORIOS = 100
