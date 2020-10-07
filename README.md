@@ -45,6 +45,6 @@ Veja como referência como é feito pela ferramenta "radon" em https://radon.rea
 ```pip install -r requirements.txt```  
 3. Execute o script para gerar os arquivos .csv:  
 ```python farmer.py```
-4. Execute o script para gerar a análise dos dados:
+4. Execute o script para gerar a análise dos dados:  
 ```python analise.py```
 5. Visualize a análise dos dados no diretório analise
